@@ -36,3 +36,7 @@ end
 def kesha_maker(array)
   array.each { |string| string[2] = "$"  }
 end
+
+def find_a
+  array.select { |string| string[0] = "a"  }
+end
