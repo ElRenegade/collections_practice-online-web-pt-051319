@@ -48,6 +48,6 @@ end
 def add_s(array)
   array.each_with_index{|string, index|
     if index < 1
-      string[-1] = "s"
+      string << "s"
     end}
 end
