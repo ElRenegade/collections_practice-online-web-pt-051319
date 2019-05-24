@@ -44,3 +44,10 @@ end
 def sum_array(array)
   array.inject{|sum ,n| sum + n}
 end
+
+def add_s(array)
+  array.each_with_index{|string, index|
+    if index < 1
+      string[-1] = "s"
+    end}
+end
